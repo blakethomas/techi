@@ -1,0 +1,404 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sidebar ul {
+  margin-bottom: 0;
+}
+
+.techi-logo {
+  position: absolute;
+}
+
+.sidebar-top {
+  position: relative;
+  height: 12%;
+  border-bottom: 1px solid lightgray;
+}
+
+.alternate-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-content ul {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+
+.main-content li {
+  position: relative;
+  margin-left: 20px;
+  float: right;
+  font-size: 1.1rem;
+  color: rgb(0, 151, 138);
+}
+
+.home {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 151, 138);
+}
+
+.top-main-right {
+  position: relative;
+  height: 12%;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar li {
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-bottom: 2px solid lightgray;
+  text-align: center;
+}
+
+.sidebar ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.main-content {
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 100%;
+  margin-right: 0;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  width: 24.9%;
+  height: 100%;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
+  color: white;
+  font-size: 3rem;
+}
+
+.sidebar-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-holder {
+  position: relative;
+  width: 23%;
+  height: 100%;
+}
+
+.logo-holder img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-images {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  border-right: 1px solid lightgray;
+}
+
+.main-images img {
+  width: 100%;
+  height: 100%;
+}
+
+.learn-more {
+  position: relative;
+  height: 10%;
+  width: 100%;
+  border-right: 1px solid lightgray;
+}
+
+.learn-more a {
+  position: absolute;
+  left: 2%;
+  bottom: 50%;
+  text-decoration: underline;
+  color: rgb(0, 151, 138);
+  font-size: 1.3rem;
+}
+
+.bottom-main {
+  position: relative;
+  height: 123%;
+  width: 100%;
+  background-color: rgb(37, 50, 55);
+}
+
+.rights {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1rem;
+  color: lightgray;
+}
+
+.sidebar-images {
+  position: relative;
+  margin-top: -15px;
+  height: 170%;
+  width: 100%;
+}
+
+.sidebar-centering {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sidebar-images img {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid lightgray;
+}
+
+.main-centering {
+  position: absolute;
+  height: 100%;
+  width: 99%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brook {
+  position: relative;
+  float: left;
+  height: 90%;
+  width: 31%;
+  margin: 10px;
+}
+
+.brook-sidebar {
+  position: relative;
+  float: left;
+  height: 32%;
+  width: 100%;
+}
+
+.jake {
+  position: relative;
+  float: left;
+  height: 90%;
+  width: 31%;
+  margin: 10px;
+}
+
+.jake-sidebar {
+  position: relative;
+  float: left;
+  height: 32%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.allef {
+  position: relative;
+  float: left;
+  height: 90%;
+  width: 31%;
+  margin: 10px;
+}
+
+.allef-sidebar {
+  position: relative;
+  float: left;
+  height: 32%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.brook-tag {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  text-align: right;
+  z-index: 10;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.brook-tag p {
+  position: relative;
+  margin: 0;
+  float: right;
+  text-align: right;
+}
+
+.jake-tag {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  text-align: right;
+  z-index: 10;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.jake-tag p {
+  position: relative;
+  margin: 0;
+  float: right;
+}
+
+.allef-tag {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  height: 83%;
+  width: 100%;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  color: white;
+}
+
+.sidebar .allef-tag {
+  bottom: -5%;
+}
+
+.allef-tag p {
+  margin: 0;
+  float: right;
+  text-align: right;
+}
+
+.allef-name {
+  font-size: 2.5rem;
+}
+
+.social-icons {
+  position: relative;
+  float: right;
+  font-size: 1.3rem;
+  color: rgb(0, 151, 138);
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.bottom-sidebar {
+  position: relative;
+  width: 65%;
+  margin: 11px;
+  color: rgb(0, 151, 138);
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.bottom-closing {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(37, 50, 55);
+  font-size: 1.1rem;
+}
+
+.allef-side-image {
+  height: 100%;
+  width: 100%;
+}
+
+.brook-side-image {
+  height: 150%;
+  width: 100%;
+}
+
+.bottom-rights {
+  color: lightgray;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.icons {
+  color: rgb(0, 151, 138);
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  right: 5%;
+  margin-top: 25px;
+  color: rgb(0, 151, 138);
+  font-size: 1.4rem;
+  z-index: 10;
+}
+
+.relative {
+  position: relative;
+}
+
+.brook-tag p {
+  position: relative;
+  float: right;
+  clear: both;
+}
+
+.jake-tag p {
+  position: relative;
+  float: right;
+  clear: both;
+}
+
+.allef-tag p {
+  position: relative;
+  float: right;
+  clear: both;
+}
+
+#description {
+  text-align: left;
+  font-size: 0.7rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#allef-job {
+  font-size: 1.4rem;
+  margin-top: -18px;
+}
+
+#jake-job {
+  font-size: 1.4rem;
+  margin-top: -18px;
+}
+
+#brook-job {
+  font-size: 1.4rem;
+  margin-top: -18px;
+}
