@@ -1,0 +1,41 @@
+@media (max-width: 1250px) {
+  .allef {
+    width: 25%;
+  }
+
+  .brook {
+    width: 25%;
+  }
+
+  .jake {
+    width: 25%;
+  }
+}
+
+@media (max-width: 980px) {
+  .sidebar {
+    width: 20%;
+  }
+
+  .jake-tag {
+    display: none;
+  }
+
+  .allef-tag {
+    display: none;
+  }
+
+  .brook-tag {
+    display: none;
+  }
+
+  .banner-text {
+    font-size: 2em;
+    bottom: 0;
+  }
+}
+
+.sidebar-li:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 151, 138);
+}

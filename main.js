@@ -13,12 +13,12 @@ async function descriptions() {
   return await response.json()
 }
 
-const $allef = document.querySelector('.allef-image')
-const $jake = document.querySelector('.jake-image')
-const $brook = document.querySelector('.brook-image')
-const $allefSidebar = document.querySelector('.allef-side-image')
-const $jakeSidebar = document.querySelector('.jake-side-image')
-const $brookSidebar = document.querySelector('.brook-side-image')
+const $allef = document.querySelector('.allef')
+const $jake = document.querySelector('.jake')
+const $brook = document.querySelector('.brook')
+const $allefSidebar = document.querySelector('.allef-sidebar')
+const $jakeSidebar = document.querySelector('.jake-sidebar')
+const $brookSidebar = document.querySelector('.brook-sidebar')
 const $brookTag = document.querySelectorAll('.brook-tag')
 const $jakeTag = document.querySelectorAll('.jake-tag')
 const $allefTag = document.querySelectorAll('.allef-tag')
@@ -31,7 +31,7 @@ names()
           $allefTag.forEach(allef => {
             const $allefName = document.createElement('p')
             $allefName.textContent = employee.first_name.toUpperCase() + ' ' + employee.last_name.toUpperCase()
-            $allefName.classList.add('allef-name')
+            $allefName.classList.add('allef-name','allef-tag-content')
             allef.appendChild($allefName)
           })
           break
@@ -39,6 +39,7 @@ names()
           $brookTag.forEach(brook => {
             const $brookName = document.createElement('p')
             $brookName.textContent = employee.first_name.toUpperCase() + ' ' + employee.last_name.toUpperCase()
+            $brookName.classList.add('brook-tag-content')
             brook.appendChild($brookName)
           })
           break
@@ -46,6 +47,7 @@ names()
           $jakeTag.forEach(jake => {
             const $jakeName = document.createElement('p')
             $jakeName.textContent = employee.first_name.toUpperCase() + ' ' + employee.last_name.toUpperCase()
+            $jakeName.classList.add('jake-tag-content')
             jake.appendChild($jakeName)
           })
       }
@@ -58,16 +60,16 @@ images()
     data.employees.forEach(employee => {
       switch(employee.id) {
           case 1:
-          $allef.src = employee.light
-          $allefSidebar.src = employee.light
+          $allef.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
+          $allefSidebar.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
           break
           case 2:
-          $brook.src = employee.light
-          $brookSidebar.src = employee.light
+          $brook.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
+          $brookSidebar.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
           break
           case 5:
-          $jake.src = employee.light
-          $jakeSidebar.src = employee.light
+          $jake.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
+          $jakeSidebar.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`) 
       }
     })
   })
@@ -85,6 +87,8 @@ descriptions()
             $allefDescription.setAttribute('id', 'description')
             $allefJob.textContent = employee.title.toLowerCase()
             $allefJob.setAttribute('id', 'allef-job')
+            $allefJob.classList.add('allef-tag-content')
+            $allefDescription.classList.add('allef-tag-content')
             allef.appendChild($allefJob)
             allef.appendChild($allefDescription)
           })
@@ -95,6 +99,7 @@ descriptions()
             const $brookJob = document.createElement('p')
             $brookJob.textContent = employee.title.toLowerCase()
             $brookJob.setAttribute('id', 'brook-job')
+            $brookJob.classList.add('brook-tag-content')
             brook.appendChild($brookJob)
           })
           break
@@ -103,6 +108,7 @@ descriptions()
             const $jakeJob = document.createElement('p')
             $jakeJob.textContent = employee.title.toLowerCase()
             $jakeJob.setAttribute('id', 'jake-job')
+            $jakeJob.classList.add('jake-tag-content')
             jake.appendChild($jakeJob)
           })
       }
