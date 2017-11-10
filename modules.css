@@ -88,11 +88,11 @@
 }
 
 .sidebar-images {
-  border: 1px solid lightgray;
   position: relative;
   margin-top: 0;
   height: 170%;
   width: 100%;
+  background-color: white;
 }
 
 .brook {
