@@ -69,7 +69,7 @@ images()
           break
           case 5:
           $jake.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
-          $jakeSidebar.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`) 
+          $jakeSidebar.setAttribute('style', `background-repeat: no-repeat;background: url(${employee.light}); background-size: cover`)
       }
     })
   })

@@ -1,0 +1,84 @@
+@media (max-width: 1250px) {
+  .allef {
+    width: 26%;
+  }
+
+  .brook {
+    width: 26%;
+  }
+
+  .jake {
+    width: 26%;
+  }
+}
+
+@media (max-height: 450px) {
+  #description {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .sidebar {
+    width: 24.75%;
+  }
+
+  .rights {
+    margin-right: 20px;
+    font-size: 0.7rem;
+  }
+
+  .main-content-li {
+    font-size: 0.7rem;
+  }
+
+  .sidebar-li {
+    font-size: 0.7rem;
+  }
+
+  .bottom-sidebar {
+    font-size: 0.7rem;
+  }
+
+  .jake-tag {
+    font-size: 1rem;
+  }
+
+  #jake-job {
+    margin-top: -5px;
+    font-size: 1rem;
+  }
+
+  .allef-name {
+    font-size: 1.2rem;
+  }
+
+  #allef-job {
+    margin-top: -7px;
+    font-size: 1rem;
+  }
+
+  .brook-tag {
+    font-size: 1rem;
+  }
+
+  #brook-job {
+    margin-top: -5px;
+    font-size: 1rem;
+  }
+
+  .banner-text {
+    font-size: 2em;
+    bottom: 0;
+  }
+
+  .learn-link {
+    top: 0;
+    font-size: 1rem;
+  }
+}
+
+.sidebar-li:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 151, 138);
+}
