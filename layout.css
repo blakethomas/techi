@@ -1,0 +1,98 @@
+.main-content {
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 100%;
+  margin-right: 0;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  width: 24.9%;
+  height: 100%;
+  background-color: white;
+}
+
+.sidebar-top {
+  position: relative;
+  height: 12%;
+  border-bottom: 1px solid lightgray;
+}
+
+.top-main-left {
+  position: relative;
+  height: 12%;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+.learn-more {
+  position: relative;
+  height: 10%;
+  width: 100%;
+  border-right: 1px solid lightgray;
+  background-color: white;
+}
+
+.bottom-main {
+  position: relative;
+  height: 124%;
+  width: 100%;
+  background-color: rgb(37, 50, 55);
+}
+
+.main-images {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  border-right: 1px solid lightgray;
+  background-color: white;
+}
+
+.bottom-sidebar {
+  position: relative;
+  width: 100%;
+  padding-left: 11px;
+  padding-bottom: 11px;
+  color: rgb(0, 151, 138);
+  font-size: 1.3rem;
+  text-decoration: underline;
+  background-color: white;
+  margin: 0;
+}
+
+.bottom-closing {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(37, 50, 55);
+  font-size: 1.1rem;
+  border: 1px solid  gray;
+  border-bottom: none;
+}
+
+.sidebar-centering {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-centering {
+  position: absolute;
+  height: 100%;
+  width: 99%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+  height: 100%;
+}
